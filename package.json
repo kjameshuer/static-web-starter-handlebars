@@ -13,7 +13,9 @@
   "dependencies": {
     "foundation-sites": "6.4.2",
     "jquery": "^3.2.1",
-    "promise-polyfill": "8.1.0"
+    "lightbox2": "2.10.0",
+    "promise-polyfill": "8.1.0",
+    "slick-carousel": "1.8.1"
   },
   "devDependencies": {
     "autoprefixer": "9.0.1",

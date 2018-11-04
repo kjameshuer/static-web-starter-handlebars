@@ -6,52 +6,165 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="Expires" content="30">
   <title>Web Static Starter</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.2/css/foundation.min.css" rel="stylesheet">
   <link href="/dist/styles.min.css" rel="stylesheet">
+
 </head>
 
 <body class="no-js">
 
   <header data-sticky-container id="header-main">
     <div class="" data-sticky data-options="marginTop:0;" style="width:100%">
-      <div class="header grid-x align-center-middle text-center">
-        <div class="site-identity cell small-12 medium-4 large-3">
+      <div class="header grid-x align-center-middle text-left">
+        <div class="site-identity cell small-10 medium-6 large-6">
           <h3 class="site-title">Static Web Starter</h3>
         </div>
-        <nav class="site-nav cell auto small-12 medium-6 large-6">
-          <ul class="menu large-align-left align-center">
+        <nav class="site-nav cell auto hide-for-small-only medium-6 large-6">
+          <ul class="menu align-right">
             <li class="nav-link"><a href="#">One</a></li>
             <li class="nav-link"><a href="#">Two</a></li>
             <li class="nav-link"><a href="#">Three</a></li>
             <li class="nav-link"><a href="#">Contact</a></li>
           </ul>
         </nav>
+        <div class="hide-for-medium cell small-2">
+          <button type="button" class="button no-back" data-toggle="offCanvas">&#9776;</button>
+        </div>
       </div>
     </div>
   </header>
+  <div class="off-canvas position-left menu mobile" id="offCanvas" data-off-canvas>
+    <nav class="site-nav mobile cell auto small-12 medium-6 large-6">
 
-  <div class="content">
-    <section id="home-section" class="grid-x grid-padding-x fluid align-center-middle text-center">
+      <ul class="large-align-left align-center">
+        <li class="nav-link"><a href="#">One</a></li>
+        <li class="nav-link"><a href="#">Two</a></li>
+        <li class="nav-link"><a href="#">Three</a></li>
+        <li class="nav-link"><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="close-button" aria-label="Close menu" type="button" data-close>
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="content" data-off-canvas-content>
 
-      <div class="cell small-10 medium-8 large-6 container">
+    <div class="fullscreen-image-slider">
+      <div class="slider">
+        <div class="slide-item">
+          <div class="grid-x slide-grid grid-padding-x fluid align-center-middle text-center">
+            <div class="cell small-10 medium-8 large-6 container">
+              <h1 class="slide-title">Static Web Starter</h1>
+            </div>
+          </div>
+          <img class="slide-background" src="https://picsum.photos/g/2000/1400/?random" />
+        </div>
+        <div class="slide-item">
+          <div class="grid-x slide-grid grid-padding-x fluid align-center-middle text-center">
+            <div class="cell small-10 medium-8 large-6 container">
+              <h1 class="slide-title">Static Web Starter</h1>
+            </div>
+          </div>
+          <img class="slide-background" src="https://picsum.photos/g/2001/1400/?random" />
+        </div>
+        <div class="slide-item">
+          <div class="grid-x slide-grid grid-padding-x fluid align-center-middle text-center">
+            <div class="cell small-10 medium-8 large-6 container">
+              <h1 class="slide-title">Static Web Starter</h1>
+            </div>
+          </div>
+          <img class="slide-background" src="https://picsum.photos/g/2002/1400/?random" />
+        </div>
+      </div>
+    </div>
+
+
+
+    <section id="home-section" class="grid-x grid-padding-x align-center-middle text-left">
+
+      <div class="cell small-10 medium-8 large-5 container">
         <div>
-          <h3 class="header">Static Web Starter</h3>
-          <h5 class="subtext">Webpack development for static HTML sites</h5>
+          <h3 class="title">Title</h3>
+          <p class="subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent aliquet urna eu quam
+            fringilla consequat. Aenean eget velit risus. Maecenas ultrices, nunc sed suscipit laoreet, velit velit
+            hendrerit metus, egestas ornare sapien orci a eros.</p>
+        </div>
+      </div>
+      <div class="cell small-10 medium-4 large-2 large-offset-1 container">
+        <div>
+          <h3 class="button">Call to Action</h3>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="text-only" class="grid-x grid-padding-x align-center-middle text-center">
+      <div class="cell small-10 medium-8 large-5 container">
+        <p>Donec maximus in elit et posuere. Cras consequat molestie purus quis auctor. Nulla facilisi. Suspendisse
+          imperdiet, mauris ac scelerisque accumsan, massa neque luctus lacus, id sodales odio mauris eget nunc. Proin
+          quis pulvinar libero, ut finibus tellus. Aliquam sit amet mattis nisi. In tincidunt pulvinar tortor a
+          dignissim. Aliquam tortor nibh, iaculis at sagittis eu, ultrices id urna. Nullam faucibus pretium metus eu
+          faucibus. Pellentesque enim elit, pretium nec nunc a, tempus iaculis neque.</p>
+      </div>
+    </section>
+
+    <section id="parallax-content" class="grid-x grid-padding-x fluid align-center-middle text-left">
+      <div class="main-background-image cell small-12 medium-12 large-12 container">
+        <div class="grid-x align-center-middle">
+          <div class="cell small-10 medium-8 large-6 container">
+            <h2>Extra Long Title</h2>
+
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="main-content" class="grid-x grid-padding-x fluid align-center-middle text-left">
-
-      <div class="main-content-text cell small-10 small-offset-1 medium-6 medium-offset-0 large-6 large-offset-0 container">
-        <div class="grid-x">
-            <div class="cell small-10 small-offset-1 medium-10 medium-offset-1 large-8 large-offset-2 container">
-          <h3 class="header">Foundation</h3>
-          <h5 class="subtext">This static website starter package comes with Foundation built in...and most notably, this random picture from https://picsum.photos</h5>
-</div>
+    <section id="gallery" class="grid-x grid-padding-x fluid align-center-middle text-center">
+      <div class="cell small-10 medium-8 large-6 container">
+        <div class="grid-x grid-padding-x fluid align-center-middle text-center">
+          <div class="cell small-6 medium-6 large-4 container">
+            <div class="thumbnail">
+              <a href="https://picsum.photos/800/600/?random" data-lightbox="gallery1">
+                <img src="https://picsum.photos/800/600/?random">
+              </a>
+            </div>
+          </div>
+          <div class="cell small-6 medium-6 large-4 container">
+            <div class="thumbnail">
+              <a href="https://picsum.photos/800/601/?random" data-lightbox="gallery1">
+                <img src="https://picsum.photos/800/601/?random">
+              </a>
+            </div>
+          </div>
+          <div class="cell small-6 medium-6 large-4 container">
+            <div class="thumbnail">
+              <a href="https://picsum.photos/800/602/?random" data-lightbox="gallery1">
+                <img src="https://picsum.photos/800/602/?random">
+              </a>
+            </div>
+          </div>
+          <div class="cell small-6 medium-6 large-4 container">
+            <div class="thumbnail">
+              <a href="https://picsum.photos/800/603/?random" data-lightbox="gallery1">
+                <img src="https://picsum.photos/800/603/?random">
+              </a>
+            </div>
+          </div>
+          <div class="cell small-6 medium-6 large-4 container">
+            <div class="thumbnail">
+              <a href="https://picsum.photos/800/604/?random" data-lightbox="gallery1">
+                <img src="https://picsum.photos/800/604/?random">
+              </a>
+            </div>
+          </div>
+          <div class="cell small-6 medium-6 large-4 container">
+            <div class="thumbnail">
+              <a href="https://picsum.photos/800/605/?random" data-lightbox="gallery1">
+                <img src="https://picsum.photos/800/605/?random">
+              </a>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="main-background-image cell small-12 medium-6 large-6   container">
-      
       </div>
     </section>
 
@@ -61,9 +174,10 @@
       <div class="cell small-10 large-6">
         <h3>Footer</h3>
       </div>
-    </div>    
+    </div>
   </footer>
   </div>
+
 
   <script src="/dist/bundle.min.js"></script>
 
