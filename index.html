@@ -10,7 +10,7 @@
 </head>
 
 <body class="no-js">
-
+  <script>body.className = '';</script>
   <header data-sticky-container id="header-main">
     <div class="" data-sticky data-options="marginTop:0;" style="width:100%">
       <div class="header grid-x align-center-middle text-left">
@@ -46,7 +46,6 @@
     </button>
   </div>
   <div class="content" data-off-canvas-content>
-
     <div class="fullscreen-image-slider">
       <div class="slider">
         <div class="slide-item">
@@ -55,7 +54,7 @@
               <h1 class="slide-title">Static Web Starter</h1>
             </div>
           </div>
-          <img class="slide-background" src="https://picsum.photos/g/2000/1400/?random" />
+          <img class="slide-background" src="img/slide-1.jpg" alt="houses birds eye view" />
         </div>
         <div class="slide-item">
           <div class="grid-x slide-grid grid-padding-x fluid align-center-middle text-center">
@@ -63,7 +62,7 @@
               <h1 class="slide-title">Static Web Starter</h1>
             </div>
           </div>
-          <img class="slide-background" src="https://picsum.photos/g/2001/1400/?random" />
+          <img class="slide-background" src="img/slide-2.jpg" alt="waves crashing on rocks" />
         </div>
         <div class="slide-item">
           <div class="grid-x slide-grid grid-padding-x fluid align-center-middle text-center">
@@ -71,15 +70,12 @@
               <h1 class="slide-title">Static Web Starter</h1>
             </div>
           </div>
-          <img class="slide-background" src="https://picsum.photos/g/2002/1400/?random" />
+          <img class="slide-background" src="img/slide-3.jpg" alt="forest path" />
         </div>
       </div>
     </div>
 
-
-
     <section id="home-section" class="grid-x grid-padding-x align-center-middle text-left">
-
       <div class="cell small-10 medium-8 large-5 container">
         <div>
           <h3 class="title">Title</h3>
@@ -93,16 +89,17 @@
           <h3 class="button">Call to Action</h3>
         </div>
       </div>
-
     </section>
 
     <section id="text-only" class="grid-x grid-padding-x align-center-middle text-center">
       <div class="cell small-10 medium-8 large-5 container">
-        <p>Donec maximus in elit et posuere. Cras consequat molestie purus quis auctor. Nulla facilisi. Suspendisse
+        <p class="quote">Donec maximus in elit et posuere. Cras consequat molestie purus quis auctor. Nulla facilisi.
+          Suspendisse
           imperdiet, mauris ac scelerisque accumsan, massa neque luctus lacus, id sodales odio mauris eget nunc. Proin
           quis pulvinar libero, ut finibus tellus. Aliquam sit amet mattis nisi. In tincidunt pulvinar tortor a
-          dignissim. Aliquam tortor nibh, iaculis at sagittis eu, ultrices id urna. Nullam faucibus pretium metus eu
-          faucibus. Pellentesque enim elit, pretium nec nunc a, tempus iaculis neque.</p>
+          dignissim. Aliquam tortor nibh, iaculis at sagittis eu, ultrices id urna.<span class="quote-author">~ Person
+            Name</span>
+        </p>
       </div>
     </section>
 
@@ -118,49 +115,32 @@
     </section>
 
     <section id="gallery" class="grid-x grid-padding-x fluid align-center-middle text-center">
-      <div class="cell small-10 medium-8 large-6 container">
-        <div class="grid-x grid-padding-x fluid align-center-middle text-center">
-          <div class="cell small-6 medium-6 large-4 container">
-            <div class="thumbnail">
-              <a href="https://picsum.photos/800/600/?random" data-lightbox="gallery1">
-                <img src="https://picsum.photos/800/600/?random">
-              </a>
-            </div>
+      <div class="cell small-10 medium-8 large-6">
+        <div class="grid-x">
+          <div class="cell small-6 medium-6 large-6">
+            <a href="/img/gall-1.jpg" data-lightbox="gallery1">
+              <img src="/img/gall-1.jpg">
+            </a>
           </div>
-          <div class="cell small-6 medium-6 large-4 container">
-            <div class="thumbnail">
-              <a href="https://picsum.photos/800/601/?random" data-lightbox="gallery1">
-                <img src="https://picsum.photos/800/601/?random">
-              </a>
-            </div>
+          <div class="cell small-6 medium-6 large-6">
+            <a href="/img/gall-2.jpg" data-lightbox="gallery1">
+              <img src="/img/gall-2.jpg">
+            </a>
           </div>
-          <div class="cell small-6 medium-6 large-4 container">
-            <div class="thumbnail">
-              <a href="https://picsum.photos/800/602/?random" data-lightbox="gallery1">
-                <img src="https://picsum.photos/800/602/?random">
-              </a>
-            </div>
+          <div class="cell small-6 medium-6 large-4">
+            <a href="/img/gall-3.jpg" data-lightbox="gallery1">
+              <img src="/img/gall-3.jpg">
+            </a>
           </div>
-          <div class="cell small-6 medium-6 large-4 container">
-            <div class="thumbnail">
-              <a href="https://picsum.photos/800/603/?random" data-lightbox="gallery1">
-                <img src="https://picsum.photos/800/603/?random">
-              </a>
-            </div>
+          <div class="cell small-6 medium-6 large-4">
+            <a href="/img/gall-4.jpg" data-lightbox="gallery1">
+              <img src="/img/gall-4.jpg">
+            </a>
           </div>
-          <div class="cell small-6 medium-6 large-4 container">
-            <div class="thumbnail">
-              <a href="https://picsum.photos/800/604/?random" data-lightbox="gallery1">
-                <img src="https://picsum.photos/800/604/?random">
-              </a>
-            </div>
-          </div>
-          <div class="cell small-6 medium-6 large-4 container">
-            <div class="thumbnail">
-              <a href="https://picsum.photos/800/605/?random" data-lightbox="gallery1">
-                <img src="https://picsum.photos/800/605/?random">
-              </a>
-            </div>
+          <div class="cell small-6 medium-6 large-4">
+            <a href="/img/gall-5.jpg" data-lightbox="gallery1">
+              <img src="/img/gall-5.jpg">
+            </a>
           </div>
         </div>
       </div>

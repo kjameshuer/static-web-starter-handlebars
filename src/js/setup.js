@@ -1,6 +1,5 @@
 const SETUP = {
-   run($){
-        $('body').removeClass('no-js');
+   run($){        
         $(document).foundation();
         if (!(typeof NodeList.prototype.forEach === "function")) {
           NodeList.prototype.forEach = Array.prototype.forEach;
