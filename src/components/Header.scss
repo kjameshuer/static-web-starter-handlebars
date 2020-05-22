@@ -1,0 +1,15 @@
+.social-header {
+  background: black;
+}
+.social-header .social-icons-holder {
+  margin: 0 15px;
+  text-align: right;
+}
+.social-header .social-logo {
+  color: white;
+  font-size: 2em;
+  margin: 0 0 0 1rem;
+  &:hover {
+    color: gray;
+  }
+}

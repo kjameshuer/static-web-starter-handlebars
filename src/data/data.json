@@ -18,6 +18,16 @@
       "title": "Twitter",
       "link": "http://www.twitter.com",
       "icon": "social-twitter"
+    },
+    {
+      "title": "Facebook",
+      "link": "http://www.facebook.com",
+      "icon": "social-facebook"
+    },
+    {
+      "title": "Pinterest",
+      "link": "http://www.pinterest.com",
+      "icon": "social-pinterest"
     }
   ],
   "homeContent": {
