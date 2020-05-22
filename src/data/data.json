@@ -1,0 +1,92 @@
+{
+  "links": [
+    {
+      "title": "One",
+      "url": "#"
+    },
+    {
+      "title": "Two",
+      "url": "#"
+    },
+    {
+      "title": "Three",
+      "url": "#"
+    }
+  ],
+  "socials": [
+    {
+      "title": "Twitter",
+      "link": "http://www.twitter.com",
+      "icon": "social-twitter"
+    }
+  ],
+  "homeContent": {
+    "callToAction": {
+      "buttonText": "Call To Action",
+      "buttonLink": "#",
+      "title": "TITLE",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent aliquet urna eu quam fringilla consequat. Aenean eget velit risus. Maecenas ultrices, nunc sed suscipit laoreet, velit velit hendrerit metus, egestas ornare sapien orci a eros."
+    },
+    "galleryImages": [
+      {
+        "src": "img/gallery-1.jpg",
+        "thumb": "img/thumb-1.jpg",
+        "alt": "an image",
+        "lightbox": "gallery1"
+      },
+      {
+        "src": "img/gallery-2.jpg",
+        "thumb": "img/thumb-2.jpg",
+        "alt": "an image",
+        "lightbox": "gallery1"
+      },
+      {
+        "src": "img/gallery-3.jpg",
+        "thumb": "img/thumb-3.jpg",
+        "alt": "an image",
+        "lightbox": "gallery1"
+      },
+      {
+        "src": "img/gallery-4.jpg",
+        "thumb": "img/thumb-4.jpg",
+        "alt": "an image",
+        "lightbox": "gallery1"
+      },
+      {
+        "src": "img/gallery-5.jpg",
+        "thumb": "img/thumb-5.jpg",
+        "alt": "an image",
+        "lightbox": "gallery1"
+      },
+      {
+        "src": "img/gallery-6.jpg",
+        "thumb": "img/thumb-6.jpg",
+        "alt": "an image",
+        "lightbox": "gallery1"
+      }
+    ],
+    "parallaxTitle": "This is the Parallax Title",
+    "parallaxImage": "https://picsum.photos/1602/701",
+    "slides": [
+      {
+        "title": "My First Title",
+        "backgroundImage": "img/slide-1.jpg",
+        "alt": "alt 1"
+      },
+      {
+        "title": "My Second Title",
+        "backgroundImage": "img/slide-2.jpg",
+        "alt": "alt 2"
+      },
+      {
+        "title": "My Third Title",
+        "backgroundImage": "img/slide-3.jpg",
+        "alt": "alt 3"
+      }
+    ],
+    "quoteInfo": {
+      "quoteText": "Donec maximus in elit et posuere. Cras consequat molestie purus quis auctor. Nulla facilisi. Suspendisse imperdiet, mauris ac scelerisque accumsan, massa neque luctus lacus, id sodales odio mauris eget nunc. Proin quis pulvinar libero, ut finibus tellus. Aliquam sit amet mattis nisi. In tincidunt pulvinar tortor a dignissim. Aliquam tortor nibh, iaculis at sagittis eu, ultrices id urna.",
+      "quoteBy": "Person Name"
+    }
+  }
+}

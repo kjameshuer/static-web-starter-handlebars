@@ -7,3 +7,5 @@ desktop.ini
 *.iml
 /.idea
 /img
+/src/img
+/dist
