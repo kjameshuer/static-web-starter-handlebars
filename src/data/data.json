@@ -6,7 +6,13 @@
     },
     {
       "title": "Two",
-      "url": "#"
+      "url": "#",
+      "children": [
+        {
+          "title": "Two 1/2",
+          "url": "#"
+        }
+      ]
     },
     {
       "title": "Three",

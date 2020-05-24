@@ -1,5 +1,13 @@
+#header-main {
+  z-index: 20;
+}
+
 .social-header {
   background: black;
+  display: none;
+  @media (min-width: '768px') {
+    display: block;
+  }
 }
 .social-header .social-icons-holder {
   margin: 0 15px;

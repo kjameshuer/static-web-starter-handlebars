@@ -1,1 +1,11 @@
-<li class="nav-link"><a href="{{link.url}}">{{link.title}}</a></li>
+{{#if (hasChildren link)}}<li class="nav-link has-dropdown">{{else}}
+<li class="nav-link">{{/if}}
+    <a href="{{link.url}}">{{link.title}}</a>
+    {{#if link.children}}
+    <ul class="menu">
+        {{#each link.children}}
+        {{>partials/Link link=.}}
+        {{/each}}
+    </ul>
+    {{/if}}
+</li>

@@ -27,6 +27,18 @@ $breakpoints: (
   }
 }
 
+#blocker {
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 100000000000;
+}
+.menu.mobile {
+  z-index: 30;
+}
 body {
   background: #c2c2c2;
 }
@@ -63,6 +75,7 @@ body {
   height: 60vh;
   min-height: 400px;
   margin: 0;
+  background: black;
   .slick-dots {
     display: flex;
     justify-content: center;
@@ -243,4 +256,11 @@ body {
   padding: 50px 0;
   background: #232323;
   color: white;
+}
+
+//Fixes
+
+.top-bar,
+.top-bar ul {
+  background: none;
 }

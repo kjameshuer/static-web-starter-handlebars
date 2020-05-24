@@ -2,7 +2,10 @@ import 'promise-polyfill/src/polyfill';
 import SETUP from './setup.js';
 
 (function ($) {
-  SETUP.run($);
+  $(document).ready(() => {
+    SETUP.run($);
+  })
+
   if ($('.slider')) {
     $('.slider').slick({
       dots: true,
