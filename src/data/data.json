@@ -1,4 +1,8 @@
 {
+  "siteInfo": {
+    "siteTitle": "Static Web Starter",
+    "siteLogo": "img/site-logo.svg"
+  },
   "links": [
     {
       "title": "One",
@@ -42,6 +46,10 @@
       "buttonLink": "#",
       "title": "TITLE",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent aliquet urna eu quam fringilla consequat. Aenean eget velit risus. Maecenas ultrices, nunc sed suscipit laoreet, velit velit hendrerit metus, egestas ornare sapien orci a eros."
+    },
+    "fullHeightRight": {
+      "titles": ["Static", "Web", "Starter"],
+      "subtitle": "Now with templating"
     },
     "galleryImages": [
       {

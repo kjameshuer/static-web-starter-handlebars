@@ -1,0 +1,40 @@
+<style>
+    .full-height-right {
+        background: black;
+        color: white;
+        min-height: 90vh;
+        margin: 0;
+    }
+
+    .full-height-right__segment {
+        display: block;
+        margin: 0;
+        line-height: 0.8em;
+        text-transform: uppercase;
+        font-size: 3em;
+        font-weight: 700;
+    }
+
+    .full-height-right-subtitle {
+        text-transform: uppercase;
+        font-size: 2em;
+        letter-spacing: 0.5em;
+        color: gray;
+    }
+</style>
+<div class="grid-x align-center-middle" style="background: white;">
+    <div class="cell small-12 medium-6 text-center align-middle align-center">
+        <img src="img/lightbulb_animated.svg"></div>
+    <div class="cell small-12 medium-6 ">
+        <div Class=" full-height-right grid-y grid-padding-y align-left align-center">
+            <div class="cell">
+                <h1 class=" grid-y grid-padding-y align-left align-center">
+                    {{#each content.titles}}
+                    <span class="full-height-right__segment" style="margin-left: -10px;">{{this}}</span>
+                    {{/each}}
+                </h1>
+            </div>
+            <p class="full-height-right-subtitle">{{content.subtitle}}</p>
+        </div>
+    </div>
+</div>
