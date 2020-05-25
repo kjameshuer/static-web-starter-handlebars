@@ -1,11 +1,12 @@
 <div class="off-canvas position-left menu mobile" id="offCanvas" data-off-canvas>
-    <nav class="site-nav mobile cell auto small-12 medium-6 large-6">
-        <ul class="large-align-left align-center">
+    <nav class="">
+        <ul id="mobile-menu" class="vertical dropdown menu" data-dropdown-menu>
             {{#each links}}
-            {{>partials/Link link=.}}
+            {{>partials/MobileLink link=.}}
             {{/each}}
         </ul>
     </nav>
+
     <button class="close-button" aria-label="Close menu" type="button" data-close>
         <span aria-hidden="true">&times;</span>
     </button>

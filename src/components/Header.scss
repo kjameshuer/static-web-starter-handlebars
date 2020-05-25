@@ -1,6 +1,9 @@
 #header-main {
   z-index: 20;
 }
+.menu-title {
+  color: white;
+}
 
 .social-header {
   background: black;
@@ -20,4 +23,12 @@
   &:hover {
     color: gray;
   }
+}
+
+/* FOUNDATION FIXES */
+.drilldown a {
+  background: black;
+}
+.drilldown .is-drilldown-submenu.is-active {
+  background: black;
 }

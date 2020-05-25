@@ -1,4 +1,4 @@
-<nav data-topbar class="site-nav top-bar cell align-right hide-for-small-only " role="navigation">
+{{!-- <nav data-topbar class="site-nav top-bar cell align-right" role="navigation">
     <section class="top-bar-section">
         <ul class="dropdown menu align-right" data-dropdown-menu>
             {{#each links}}
@@ -6,4 +6,10 @@
             {{/each}}
         </ul>
     </section>
-</nav>
+</nav> --}}
+
+<ul class="dropdown vertical medium-horizontal menu" data-responsive-menu="drilldown medium-dropdown">
+    {{#each links}}
+    {{>partials/Link link=.}}
+    {{/each}}
+</ul>

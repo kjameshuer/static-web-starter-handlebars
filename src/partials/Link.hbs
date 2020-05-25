@@ -1,8 +1,8 @@
-{{#if (hasChildren link)}}<li class="nav-link has-dropdown">{{else}}
-<li class="nav-link">{{/if}}
-    <a href="{{link.url}}">{{link.title}}</a>
+{{#if (hasChildren link)}}<li class="has-submenu">{{else}}
+<li class="">{{/if}}
+    <a class="menu-title" href="{{link.url}}">{{link.title}}</a>
     {{#if link.children}}
-    <ul class="menu">
+    <ul class="submenu menu vertical" data-submenu>
         {{#each link.children}}
         {{>partials/Link link=.}}
         {{/each}}

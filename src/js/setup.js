@@ -2,6 +2,7 @@ const SETUP = {
   run($) {
 
     $(document).foundation();
+    // var elem = new Foundation.DropdownMenu($('#mobile-menu'));
     $('#blocker').fadeOut();
     if (!(typeof NodeList.prototype.forEach === "function")) {
       NodeList.prototype.forEach = Array.prototype.forEach;
