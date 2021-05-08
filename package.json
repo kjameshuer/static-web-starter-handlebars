@@ -13,7 +13,7 @@
   "dependencies": {
     "@icon/foundation-icons": "^3.0.0-alpha.3",
     "foundation-sites": "6.4.2",
-    "handlebars": "^4.7.6",
+    "handlebars": "^4.7.7",
     "jquery": "^3.5.1",
     "lightbox2": "2.10.0",
     "promise-polyfill": "8.1.0",
